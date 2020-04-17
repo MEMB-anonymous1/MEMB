@@ -223,7 +223,7 @@ if __name__ == '__main__':
     parser.add_argument('--seed', '-s', type=int, default=0)
     parser.add_argument('--epochs', type=int, default=250)
     parser.add_argument('--exp_name', type=str, default='memb')
-    parser.add_argument('--train_model_epoch', type=int, default=1)
+    parser.add_argument('--train_model_epoch', type=int, default=5)
     parser.add_argument('--test_freq', type=int, default=1)
     parser.add_argument('--env_name', type=str, default='HalfCheetah-v2')
     parser.add_argument('--save_epoch', type=int, default=500)
